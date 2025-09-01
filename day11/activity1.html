@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            body{
+                height: 1500px;
+            }
+            .static{
+                background-color: blueviolet;
+                height: 100px;
+                width: 100px;
+                color: aliceblue;
+                font-size: 25px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: static;
+                margin-bottom: 10px;
+            }
+            .relative1{
+                background-color: aquamarine;
+                height: 100px;
+                width: 100px;
+                color: aliceblue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 10px;
+                font-size: 25px;
+                position: relative;
+                top: 100px;
+                
+                z-index: 1;
+
+
+            }
+            .relative2{
+                background-color: rgb(233, 82, 238);
+                height: 100px;
+                width: 100px;
+                color: aliceblue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                
+                
+                margin-bottom: 10px;
+                font-size: 25px;
+                z-index: 2;
+
+
+            }
+            .absolutemain{
+                background-color: aqua;
+                height: 400px;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 300px;
+            }
+            .absolute-box{
+                background-color: bisque;
+                width: 300px;
+                height: 150px;
+                position: absolute;
+                top: 10px;
+                left: 50px;
+
+                
+            }
+            .fixed{
+                background-color: blueviolet;
+                width: 500px;
+                height: 200px;
+                color: antiquewhite;
+                font-size: 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: fixed;
+
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+       <!--<div class="static">static</div>
+        <div class="relative1">relative</div>
+        <div class="relative2">relative</div> 
+        <div class="absolutemain">
+            <div class="absolute-box"></div>
+        </div> -->
+        <div class="fixed">fixed</div>
+    </body>
+</html>

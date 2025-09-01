@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           /.and{
+                background-color: black;
+                height: 200px;
+                width: 200px;
+                margin: 200px;
+                animation-name: and;
+                animation-duration: 5s;
+                animation-timing-function: ease-in-out;
+                /* animation-delay: 3s; */
+                /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+               /* animation-iteration-count: 3;*/
+               /*border-bottom: 10px;*/
+               animation-direction: normal;
+            }
+            @keyframes and{
+                0%{
+                    background-color: blue;
+                    
+                    transform: translate(100px,200px);
+                }
+                5%{
+                    background-color: blueviolet;
+                    
+                }
+                10%{
+                    background-color: red;
+                   
+                }
+                15%{
+                    background-color: green;
+                    
+                }
+                20%{
+                    background-color: yellow;
+                   
+                25%{
+                   background-color: brown;
+                }
+                }
+                30%{
+                    background-color: aqua;
+                   
+                }
+                35%{
+                    background-color: rgb(231, 40, 199);
+                    
+                }
+                40%{
+                    background-color: goldenrod;
+                    
+                    
+                }
+                45%{
+                    background-color: ghostwhite;
+                    transform: translate(100px,200px);
+                    
+                   
+                }
+            } 
+
+            
+            .aa{
+                 background-color: rgb(211, 61, 61);
+                height: 200px;
+                width: 200px;
+                animation-direction: alternate;
+                animation-name: aa;
+                animation-duration: 5s;
+            }
+             @keyframes aa{ 
+                5%{
+                    background-color: aquamarine;
+                    transform: translate(100px,200px);
+                }
+                10%{
+                    background-color: rgb(134, 126, 240);
+                    transform: translate(100px,200px);
+                }
+             }
+
+            .dd{
+                 background-color: rgb(55, 192, 43);
+                height: 200px;
+                width: 200px;
+                animation-direction: alternate-reverse;
+                animation-name: dd;
+                animation-duration: 5s;
+            }
+             @keyframes dd{
+                5%{
+                    background-color: aquamarine;
+                    transform: translate(100px,200px);
+                }
+                10%{
+                    background-color: rgb(134, 126, 240);
+                    transform: translate(100px,200px);
+                }
+
+             }
+
+            .ss{
+                 background-color: rgb(43, 85, 199);
+                height: 200px;
+                width: 200px;
+                animation-direction: normal;
+                animation-name: ss;
+                animation-duration: 5s;
+            }
+             @keyframes ss{
+
+                5%{
+                    background-color: aquamarine;
+                    transform: translate(100px,200px);
+                }
+                10%{
+                    background-color: rgb(134, 126, 240);
+                    transform: translate(100px,200px);
+                }
+             }
+            
+            .hh{
+                 background-color: black;
+                height: 200px;
+                width: 200px;
+                animation-direction: reverse;
+                animation-name: hh;
+                animation-duration: 5s;
+            }
+             @keyframes hh{
+                5%{
+                    background-color: aquamarine;
+                    transform: translate(100px,200px);
+                }
+                10%{
+                    background-color: rgb(134, 126, 240);
+                    transform: translate(100px,200px);
+                }
+
+             }
+
+        </style>
+    </head>
+    <body>
+        <div>
+            <div class="and"> </div>
+            <div class="aa"></div>
+            <div class="dd"></div>
+            <div class="ss"></div>
+            <div class="hh"></div>
+        </div>
+    </body>
+</html>

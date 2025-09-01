@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            img{
+                height: 400px;
+                width: 400px;
+                border-radius: 10px;
+                transition: all 0.5s ease;
+            }
+            .grayscale{
+                filter: grayscale(100%);
+            }
+            .sepia{
+                filter: sepia(100%);
+            }
+            .blur{
+                filter: blur(7px);
+            }
+            .brightness{
+                filter: brightness(150%);
+            }
+            .contrast{
+                filter: contrast(100%);
+
+            }
+            .hue-rotate{
+                filter: hue-rotate(110deg);
+
+            }
+            .invert{
+                filter: invert(100%);
+            }
+            .saturate{
+                filter: saturate(100%);
+            }
+            .multiple{
+                filter:  brightness(100%) contrast(50%)  ;
+            }
+            body{
+                cursor:zoom-out;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div>
+            <img src="/home/uki-dsa-03/Downloads/fox.jpeg" class="grayscale">
+        </div>
+        <img src="/home/uki-dsa-03/Downloads/headphone.jpeg" class="sepia">
+        <img src="/home/uki-dsa-03/Downloads/headphone.jpeg" class="blur">
+        <img src="/home/uki-dsa-03/Downloads/headphone.jpeg" class="brightness">
+        <img src="/home/uki-dsa-03/Downloads/headphone.jpeg" class="contrast">
+        <img src="/home/uki-dsa-03/Downloads/headphone.jpeg" class="hue-rotate">
+        <img src="/home/uki-dsa-03/Downloads/headphone.jpeg" class="invert">
+        <img src="/home/uki-dsa-03/Downloads/headphone.jpeg" class="saturate">
+        <img src="/home/uki-dsa-03/Downloads/headphone.jpeg" class="multiple">
+    </body>
+</html>

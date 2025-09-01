@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .start{ 
+                background-color: blue;
+                height: 50px;
+                width: 50px;
+                border-radius: 100px;
+                animation-direction:alternate;
+                animation-name: start;
+                animation-duration: 4s;
+                animation-delay: 0.2s;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+
+            }
+            @keyframes start{
+                  
+                  0%{transform: translate(0px,0px)}
+                  20%{transform: translate(240px,200px)}
+                  40%{transform: translate(480px,0px)}
+                  60%{transform: translate(720px,200px)}
+                  80%{transform: translate(960px,0px)}
+                  100%{transform: translate(1700px,200px)}
+            }
+            .middle{
+                background-color: red;
+                height: 50px;
+                width: 50px;
+                border-radius: 100px;
+                animation-direction:alternate;
+                animation-name: middle;
+                animation-duration: 4s;
+                animation-delay: 0.5s;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+            }
+             @keyframes middle{
+                  
+                  0%{transform: translate(0px,0px)}
+                  20%{transform: translate(240px,200px)}
+                  40%{transform: translate(480px,0px)}
+                  60%{transform: translate(720px,200px)}
+                  80%{transform: translate(960px,0px)}
+                  100%{transform: translate(1700px,200px)}
+            }
+            .end{
+                background-color: greenyellow;
+                height: 50px;
+                width: 50px;
+                border-radius: 100px;
+                animation-direction:alternate;
+                animation-name: end;
+                animation-duration: 4s;
+                animation-delay: 0.9s;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+                
+            }
+             @keyframes end{
+                  
+                  0%{transform: translate(0px,0px)}
+                  20%{transform: translate(240px,200px)}
+                  40%{transform: translate(480px,0px)}
+                  60%{transform: translate(720px,200px)}
+                  80%{transform: translate(960px,0px)}
+                  100%{transform: translate(1700px,200px)}
+            }
+            body{
+                background-color: black;
+            }
+            
+            
+
+        </style>
+    </head>
+    <body>
+       
+        <div class="start"></div>
+        <div class="middle"></div>
+        <div class="end"></div>
+    </body>
+</html>
