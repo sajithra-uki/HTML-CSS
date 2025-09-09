@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .as:first-child{
+                background-color: aqua;
+                color: rgb(243, 12, 12);
+
+            }
+            tr:nth-child(odd){
+                background-color: blueviolet;
+            }
+            tr:last-child{
+                background-color: blue;
+            }
+            .df:not(:first-child){
+                background-color: beige;
+            }
+            input:checked+label{
+                color: greenyellow;
+                font-weight: bold;
+                background-color: hotpink;
+            }
+
+
+
+
+        </style>
+    </head>
+    <body>
+        <table class="ad">
+            <tr class="as">
+                <th>first</th>
+                <th>mid</th>
+                <th>end</th>
+            </tr>
+            <tr class="df">
+                <td>a</td>
+                <td>b</td>
+                <td>c</td>
+            </tr>
+            <tr class="cd">
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr class="er">
+                <td>as</td>
+                <td>df</td>
+                <td>gr</td>
+            </tr>
+            <tr class="gt">
+                <td>f</td>
+                <td>d</td>
+                <td>s</td>
+            </tr>
+        </table>   
+        
+        <input type="checkbox">
+        <label>checked</label>
+        
+    </body>
+</html>
