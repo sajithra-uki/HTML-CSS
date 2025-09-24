@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <label for="firstName" class="form-label">first name </label>
+                <input type="text" class="form-control" id="firstName">
+          <style>
+            .home{
+                height: 30px;
+                width: 30px;
+            }
+          </style>
+    </head>
+    <body>
+        
+            <h3>9.Floating Labels</h3>
+        <form class="mb-4">
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="FloatingEmail" placeholder="name@gmail.com">
+                <label for="FloatingEmail">Email address</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="Floatingpassword" placeholder="password">
+                <label for="Floatingpassword">password</label>
+            </div>
+        </form>
+        
+        <h3>10.Input Group</h3>
+        <form>
+            <div class="input-group mb-3">
+                <span class="input-group-text">
+                    <img src="/home/uki-dsa-03/Downloads/home.png" alt="home" class="home">
+                </span>
+                <input type="text" class="form-control" placeholder="Username">
+            </div>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="edent's Username">
+                <span class="input-group-text">@gmail.com</span>
+            </div>
+        </form>
+        <h3>11.Validation States</h3>
+        <form>
+            <input type="text" class="form-control is-valid mb-3" placeholder="valid input">
+            <input type="text" class="form-control is-invalid mb-3" placeholder="invalid input">
+            <div class="invalid-feedback mb-4">please enter a valid value.</div>
+
+        </form>
+        <h3>12. Horizontal Form</h3>
+        <form class="row mb-4">
+            <div class="col-md-6">
+                <label for="firstName" class="form-label">first name </label>
+                <input type="text" class="form-control" id="firstName">
+            </div>
+            <div class="col-md-6">
+                <label for="firstName" class="form-label">last name </label>
+                <input type="text" class="form-control" id="firstName">
+            </div>
+        </form>
+
+        <h3>13.inline form</h3>
+        <form class="row g-3 align-items-center mb-4">
+            <div class="col-auto">
+                <label for="inlineformInput" class="col-form-label">name</label>
+            </div>
+            <div class="col-auto">
+                <input type="text" id="inlineformInput" class="form-control" placeholder="jane Doe" >
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary">submit</button>
+            </div>
+
+            </div>
+        </form>
+
+        
+    </body>
+</html>
