@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div class="main">
+            <p>this is a class to change. </p>
+            <p>this time is a change.</p>
+        </div>
+
+        <p id="demo">go</p>
+        <script>
+            const x = document.getElementById("main").innerHTML;
+            const y = x.getElementsByClassName("p").innerHTML;
+
+            document.getElementById("demo").innerHTML='can change';
+            document.getElementById("demo").innerHTML='the first paragraph (index 0) inside the "hi" is:'+ y[0].innerHTML;
+        </script>
+    </body>
+</html>
